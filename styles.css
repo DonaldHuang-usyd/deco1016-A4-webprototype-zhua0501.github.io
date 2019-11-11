@@ -1,0 +1,420 @@
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  width: 100%;
+}
+div.logo {
+  position: relative;
+}
+div.logo > a >img{
+  width: 130px;
+  height: 100px;
+  position: absolute;
+  top: -30px;
+  left: 0px;
+}
+
+nav{
+  
+  background: white;
+  padding: 3em;
+  border-top:2px  groove gray ;
+  border-bottom:2px  groove gray ;
+  text-align:right;
+  
+}
+#signuplogo{
+text-align: center;
+
+}
+
+#signuplogo> a >img{
+  width: 130px;
+  height: 100px;
+}
+
+
+button{
+  width: 200px;
+  max-width: 500px;
+  padding: 15px;
+  margin-left:auto;
+  border:hidden;
+  background-color: #FFCC00;
+  color: black;
+  border-radius: 30px;
+  text-align:center;
+  
+}
+
+body {
+  background: #FFCC00;
+  
+}
+
+h1 {
+  text-align: center;
+}
+
+.mainpage {
+  width: auto;
+  background: white;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 5em;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+.signuppage{
+  width: auto;
+  background: white;
+  width: 60%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5em;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+.landing1{
+
+  width: auto;
+  background: white;
+  width: 60%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 5em;
+  border-radius: 30px;
+  margin-top: 10px;
+
+}
+
+.landing1> .card{
+  width:auto;
+  max-width: 500px;
+  margin:0 auto;
+  align-items: center;
+ border-style: solid;
+ border-radius: 30px;
+ border-color:  #FFCC00;
+ background-color: rgb(190, 185, 185);
+ 
+}
+.landing2> .card{
+  width:auto;
+  max-width: 500px;
+  margin:0 auto;
+  align-items: center;
+ border-style: solid;
+ border-radius: 30px;
+ border-color:  #FFCC00;
+ background-color: rgb(190, 185, 185);
+ 
+}
+.landing3> .card{
+  width:auto;
+  max-width: 500px;
+  margin:0 auto;
+  align-items: center;
+ border-style: solid;
+ border-radius: 30px;
+ border-color:  #FFCC00;
+ background-color: rgb(190, 185, 185);
+ 
+}
+
+.card > h2{
+  text-align: center;
+  display: block;
+}
+.card:hover {
+  
+  opacity: 0.3;
+  cursor: pointer;
+  
+}
+.landing2{
+
+  width: auto;
+  background: white;
+  width: 60%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 5em;
+  border-radius: 30px;
+  margin-top: 10px;
+
+}
+.landing3{
+
+  width: auto;
+  background: white;
+  width: 60%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 5em;
+  border-radius: 30px;
+  margin-top: 10px;
+
+}
+.enter{
+  text-align: center;
+  
+}
+
+select{
+  max-width: 600px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form .messages {
+  flex: 0 0 100%;
+  text-align: right;
+  padding: 5px 0;
+  color: #ff6361;
+}
+
+form .form-group.has-error > input,
+form .form-group.has-error > select  {
+  border: 2px solid #ff6361;
+}
+
+form .form-group.has-success > input,
+form .form-group.has-success > select  {
+  border: 2px solid #41a765;
+}
+form * {
+  box-sizing: border-box;
+}
+
+
+
+
+
+.form-group {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+margin: 10px;
+}
+
+div label{
+padding: 20px;
+text-align: right;
+width: 120px;
+flex-grow: 1;
+flex-shrink: 0;
+flex-basis: 120px;
+}
+
+label span{
+display: block;
+font-size: 0.75em;
+opacity: 0.5;
+}
+
+label+* {
+  flex-grow: 1;
+flex-shrink: 0;
+flex-basis: auto;
+}
+
+input , select {
+  background-color: #FFCC00;
+  padding: 15px;
+  border:none;
+  border-radius: 30px;
+}
+
+.flex-container{
+  margin-top:2em;
+  display:flex;
+  flex-direction: row;
+  flex-grow: 1;
+  
+}
+
+.flex-column {
+  align-items: center; 
+  margin-bottom: 1em;
+  
+  width:60%;
+  text-align: center;
+  border: solid #FFCC00 2px;
+  border-radius: 30px;
+background-color: rgba(255, 255, 255, 0.2);
+}
+
+.flex-column > img {
+  width: 90%;
+margin-top: 30px;
+border-radius: 90px;
+}
+
+
+
+#overlay1 {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#overlay2 {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#overlay3 {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: black;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  border-style: dashed;
+  background-color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+.windowtitle{
+text-align: center;
+font-size: 25px;
+}
+
+.flex-column:hover  .transis{
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+
+.transis {
+  opacity: 1;
+  transition: .5s ease;
+}
+
+nav > a >button:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.joinbutt{
+text-align: center;
+}
+.joinbutt > a >button{
+  width: 100%;
+}
+
+a > button:hover{
+
+  opacity: 0.3;
+  cursor:pointer;
+}
+
+.check > button{
+  background-color: greenyellow;
+}
+
+.check> button:hover{
+  
+  cursor:pointer;
+}
+
+
+.submit{
+  width: 200px;
+  max-width: 500px;
+  padding: 15px;
+  margin:10px auto;
+  border:hidden;
+  background-color: #FFCC00;
+  color: black;
+  border-radius: 30px;
+  text-align:center;
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .flex-container{
+    display:block;
+  }
+  .flex-column{
+    width:100%;
+    margin-bottom: 2em;
+    flex-wrap: wrap;
+  }
+
+  main {
+    width: auto;
+    border-radius: 0;
+  }
+  
+
+}
+
+@media screen and (max-width: 425px) {
+  .mainpage + .signuppage + .landing {
+    width: auto;
+    border-radius: 0;
+  }
+  form{
+    width:100%;
+  }
+  form label{
+    flex:0,0,100%;
+    text-align: left;
+    padding: 10px;
+
+  }
+  label +* {
+    flex:0,0,100%;
+  }
+  button{
+    width:100%;
+  }
+
+ 
+  
+}
